@@ -31,10 +31,10 @@ export default function Navbar() {
       <Image src={logo} alt="Your Misery logo" className="h-[80px] w-auto" />
       <NavMenu />
       <div className="flex gap-[40px]">
-        <a href="#" className="text-[40px]">
+        <a href="#" className="text-[40px] hover:scale-105 hover:rotate-3">
           <FaInstagram />
         </a>
-        <a href="#" className="text-[40px]">
+        <a href="#" className="text-[40px] hover:scale-105 hover:rotate-3">
           <FaXTwitter />
         </a>
       </div>
