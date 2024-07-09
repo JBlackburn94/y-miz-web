@@ -5,6 +5,7 @@ import heroImage from "../../../public/ym-hero.webp";
 import Button from "./Button";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import HeroVideo from "./HeroVideo";
 
 gsap.registerPlugin(useGSAP);
 export default function Hero() {
@@ -27,11 +28,7 @@ export default function Hero() {
         </div>
       </div>
       <div className=" opacity-0" id="heroChild">
-        <Image
-          src={heroImage}
-          alt="A promo picture of Your Misery"
-          className="min-w-[619px]"
-        />
+        <HeroVideo />
       </div>
     </section>
   );
